@@ -4,7 +4,7 @@ def find_person(surname: str):
             line = file.readline()
             if not line:
                 break
-            if line[:-1] == surname:
+            if line[:-1] == surname.title():
                 print(line.strip())
                 print(file.readline().strip())
                 print(file.readline().strip())
