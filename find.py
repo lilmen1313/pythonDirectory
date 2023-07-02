@@ -1,5 +1,5 @@
 def find_person(surname: str):
-    with open('test.txt', 'r', encoding='utf-8') as file:
+    with open('C:/Users/lilme/Desktop/TESTING(Seminar)/Python (Task - directory)/pythonDirectory/test.txt', 'r', encoding='utf-8') as file:
         while True:
             line = file.readline()
             if not line:
